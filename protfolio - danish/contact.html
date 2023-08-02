@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="icon"type="image/png"sizes="32x32"href="./assets/images/favicon-32x32.png"/>
+    <title>Danish Gulzar/Contact</title>
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  </head>
+  <body>
+    <nav class="container">
+      <div class="logo-icon">
+        <a href="index.html"><p class="ims">Danish Gulzar</p></a>
+      </div>
+      <img src="image/icon-menu.svg" class="open-menu" alt="" />
+      <div class="navbar">
+        <ul>
+          <li><a href="about.html" class="li1" target="_blank">About</a></li>
+          <li><a href="" class="li2">book</a></li>
+          <li><a href="contact.html" class="li3" target="_blank">contact </a></li>
+        </ul>
+      </div>
+    </nav>
+    <section id="hero_banner">
+        <h1>Contact Form</h1>
+        <form name="contactForm" onsubmit="return validateForm()" method="post">
+          <label for="email">Your Email:</label>
+          <input type="email" name="email" required><br><br>
+          <label for="text">Text:</label>
+          <textarea name="text" rows="4" cols="50" required></textarea><br><br>
+          <input type="submit" value="Submit">
+        </form>     
+    </section>
+    <footer class="copyr">
+      <p >&copy; 2023 Danish Gulzar. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

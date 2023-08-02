@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #11091f;
+  }
+  
+  /* Navigation bar styles */
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-top: 1rem;
+  }
+  
+  .logo-icon {
+    color: #009EFA;
+  }
+  
+  .logo-icon .ims {
+    margin-left: 5rem;
+    margin-top: 1px;
+    position: absolute;
+    font-size: 2.3rem;
+    font-weight: bold;
+    color: #009EFA;
+    text-decoration: none;
+  }
+  
+  nav ul{
+    position: absolute;
+    margin-left: -29rem;
+    margin-top: -4px;
+  }
+  nav ul li{
+      display: inline-block;
+      height: 100px;
+      font-family: "inter",sans-serif;
+      font-size: 21px;
+      padding: 25px;
+  }
+  nav ul li a:hover{
+      color: #4FFBDF;
+      transition-delay: 0.0ms;
+  }
+  li a{
+      color: #30c5ff;
+      font-weight: 700;
+      word-spacing: 10px;
+      transition: 0.2s;
+      text-decoration: none;
+  }
+  
+  /* Hero banner styles */
+  #hero_banner {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  #hero_banner h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: antiquewhite;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    font-size: 18px;
+    font-weight: bold;
+    color: antiquewhite;
+  }
+  
+  input[type="email"],
+  textarea {
+    width: 300px;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: antiquewhite;
+  }
+  
+  input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #555;
+  }
+.copyr {
+    background-color: #333; 
+    padding: 10px;
+}
+.copyr p {
+    color: #fff; 
+    font-size: 15px;
+    text-align: center;
+}
+  

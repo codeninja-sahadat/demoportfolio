@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+/* CSS code for responsiveness */
+
+/* Styles for larger screens */
+
+
+body{
+    height: 100vh;
+    background-color: #11091f;
+}
+.containerfirst{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100PX;
+}
+.ims{
+    margin-left: 5rem;
+    margin-top: 4rem;
+    font-size: 2.3rem;
+    font-weight: bold;
+    color: #009EFA;
+}
+nav ul li{
+    display: inline-block;
+    font-family: "inter",sans-serif;
+    font-size: 22px;
+    padding: 25px;
+    margin-top: 2rem;
+}
+nav ul li a:hover{
+    color: #4FFBDF;
+    transition-delay: 0.0ms;
+}
+li a{
+    text-decoration: none;
+    color: #30c5ff;
+    font-weight: 700;
+    word-spacing: 10px;
+    transition: 0.2s;
+}
+#about{
+    width: 90%;
+    height: 100vh;
+    /* background-color: #009EFA; */
+    display: flex;
+    justify-content: space-around;
+    margin: 9rem 15rem 5rem;
+    margin-bottom: 3rem;
+}
+.mybio{
+    background-color: rgb(19, 88, 116);
+    width: 26rem;
+}  
+.bioimg{
+    height: 213px;
+    width: 213px;
+    background-image: url(image/biopic.jpg);
+    border-radius: 50%;
+    background-position: 60% 30%;
+    margin: -95px auto 0;
+}
+.mybiotext{
+    font-family: "inter" sans-serif;
+    font-size: 2.7rem;
+    display: flex;
+    align-items: center;
+    color: #e5ecec;
+    justify-content: center;
+}
+.biotext{
+    color: antiquewhite;
+    width: 30rem;
+    margin-bottom: 15px;
+    margin-right: 16rem;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+.articlebio{
+    padding: 10px;
+    color: #e5ecec;
+    margin-left: 5px;
+    font-size: 1.3rem;
+    margin: 30px 13px 0;
+    font-family: "inter" sans-serif;
+}
+.mine{
+    font-size: 2.5rem;
+    color: antiquewhite;
+    margin-bottom: 20px;
+    margin-left: 1rem;
+}
+div .socials-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    height: 4rem;
+ }
+  
+ .socials-icons a {
+    color: #fff; /* Set the color to white or any other contrasting color */
+    font-size: 2.5rem;
+    transition: color 0.2s;
+    padding: 1rem;
+    transition: 0.2s;
+}
+.socials-icons a:nth-child(1):hover{
+    color: #1877F2;
+}
+.socials-icons a:nth-child(2):hover{
+    color: #E4405F;
+}
+.my-button {
+    font-size: 1.5rem;
+    background-color: rgb(16, 99, 92);
+    color: antiquewhite;
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+    width: 9rem;
+    border: 1px rgb(97, 25, 25);
+    height: 4rem;
+    margin-left: 1rem;
+    border-radius: 10px;
+    transition: 0.2s;
+}  
+.my-button:hover{
+    background-color: #0973ec;
+    color: #fff;
+}
+.copy{
+    background-color: #333; 
+    width: 100%;
+    padding: 10px;
+    color: #fff; 
+    font-size: 15px;
+    text-align: center;
+    margin-top: 3rem;
+}
+  
+  /* Styles for smaller screens */
+  @media screen and (max-width: 480px) {
+    .container {
+      padding: 0 10px;
+    }
+  
+    h2 {
+      font-size: 1.8rem;
+    }
+  }
+  
